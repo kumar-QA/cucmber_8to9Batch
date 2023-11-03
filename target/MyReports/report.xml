@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="130.72">
+    <testcase classname="Verify DashboardPage Complete Functionality" name="verify productSearch Functionality" time="48.959">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+When user click on product..................................................passed
+And Search for product name with "Adobe Photoshop CS4"......................passed
+Then it Should show result..................................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify DashboardPage Complete Functionality" name="verify CategoriesSearch Functionality" time="17.573">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+When user click on categories link..........................................passed
+And Search for categorie name asComputers...................................passed
+Then it should display the result...........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify DashboardPage Complete Functionality" name="verify CategoriesSearch Functionality 2" time="15.217">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+When user click on categories link..........................................passed
+And Search for categorie name asElectronics.................................passed
+Then it should display the result...........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify DashboardPage Complete Functionality" name="verify CategoriesSearch Functionality 3" time="12.611">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+When user click on categories link..........................................passed
+And Search for categorie name asBooks.......................................passed
+Then it should display the result...........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify DashboardPage Complete Functionality" name="verify CategoriesSearch Functionality 4" time="16.397">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+When user click on categories link..........................................passed
+And Search for categorie name asJewelry.....................................passed
+Then it should display the result...........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Complete LoginFunctionality" name="verify loginfunction with valid credentials" time="8.56">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should navgate to Dashboard page....................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Complete LoginFunctionality" name="verify loginfunction with Invalid credentials" time="2.643">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter Invalid username.................................................passed
+And enter Invalid password..................................................passed
+And click on login btn......................................................passed
+Then it should through error message........................................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Complete LoginFunctionality" name="verify loginfunction with Invalid username and valid password" time="3.614">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter Invalid username.................................................passed
+And enter valid password....................................................passed
+And click on login btn......................................................passed
+Then it should through usernmae error message...............................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Complete LoginFunctionality" name="verify loginfunction with valid username and Invalid password" time="2.434">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When enter valid username...................................................passed
+And enter Invalid password..................................................passed
+And click on login btn......................................................passed
+Then it should through invalid password error message.......................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify Complete LoginFunctionality" name="verify loginfunction without username and password" time="2.495">
+        <system-out><![CDATA[Given launch the browser enter url..........................................passed
+When username field keep as empty...........................................passed
+And Password field keep as empty............................................passed
+And click on login btn......................................................passed
+Then it should through required error message...............................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
